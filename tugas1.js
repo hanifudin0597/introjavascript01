@@ -30,7 +30,7 @@ const biodata = {
             name : "IT PLN",
             yearIn : 2016,
             yearOut : 2020,
-            major : "Engineering informatic"
+            major : "Engineering informatics"
 
         }
     ],
@@ -47,5 +47,5 @@ const biodata = {
     interestInCoding : true,
 }
 
-// console.log(biodata.skills.skillName)
-console.log(biodata)
+console.log(biodata.skills[0].skillName)
+// console.log(biodata)

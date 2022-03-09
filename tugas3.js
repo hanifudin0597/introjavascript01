@@ -1,9 +1,9 @@
 const printSegitiga = 5
-let tipedata = typeof printSegitiga;
+let tipeData = typeof printSegitiga;
 
 let hasil="";
 
-if(tipedata=="number"){
+if(tipeData=="number"){
     for(i=printSegitiga; i>0; i--){
         for(k=1; k<=i; k++){
             hasil += k;
